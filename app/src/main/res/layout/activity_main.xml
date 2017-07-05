@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mr.frosto.MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/pop1"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/fr_b_j"
+        android:layout_height="wrap_content"
+        android:text="....Frosto Dealers...."
+        android:textSize="50sp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="5dp"
+        android:textColor="#00ff00"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/con_ok_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact : 8059600443"
+        android:layout_alignParentBottom="true"
+        android:textSize="25sp"
+        android:textColor="#ecc6c6"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/add_ok_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address: SCO 34 Metro Complex Sec 34A, Chandigarh"
+
+        android:layout_above="@id/con_ok_h"
+        android:textSize="25sp"
+        android:textColor="#99ff99"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="
+Deals in selling and buying of all type of properties.....
+        "
+        
+        android:layout_below="@id/fr_b_j"
+        android:fontFamily="casual"
+        android:textSize="25sp"
+        android:textColor="#ffff00"
+        android:layout_marginLeft="10dp"
+        />
+3
+
+
+</RelativeLayout>
